@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#B6D4AE;
+	font-family:"微软雅黑";
+}
+
+article{
+	width:700px;
+	margin:0 auto;
+	padding:20px 20px 50px 20px;
+	
+}
+.container{
+	width:960px;
+	border-radius:50px;
+	background-color:#F8F3F3;
+	margin:40px auto;
+	position:relative;	
+}
+header{
+	overflow:hidden;
+	margin-bottom:20px;
+	}
+header hgroup{
+	float:right;
+	margin-right:10px;
+	text-align:center;
+	color:#13EBB8;
+	width:160px;
+}
+header hgroup h3{
+	font-size:16px;
+	font-weight:normal;
+}
+header hgroup h1{
+	font-size:20px;
+	text-shadow:2px -1px 0 #15b1c3,3px -2px 0 #95c1c3;
+	margin-top:-4px;
+}
+header .photo{
+	float:left;
+	width:200px;
+	margin:40px 20px 20px 70px;
+}
+header img{
+	display:block;
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	box-shadow:0 0 4px 4px #7BCEDB;
+}
+header .xinxi{
+	float:left;
+	margin-top:20px;
+	width:200px;
+}
+header .xinxi li{
+	font-weight:bold;
+	color:#494949;
+	border-bottom:1px dashed #886c73;
+	font-size:14px;
+	line-height:24px;
+	
+}
+section{
+	margin:20px 70px 20px 40px;
+	font-size:14px;
+	line-height:24px;
+}
+
+section h2{
+	clear:both;
+	width:100%;
+	height:30px;
+	font-size:18px;
+	color:#F1ED84;
+	padding-left:30px;
+	line-height:30px;
+	border-bottom:2px solid #15b1c3;
+	text-shadow:3px 0 0 #B6D4AE;
+	margin:10px 0;
+}
+.work,.time,.wages{
+	font-weight:bold;
+	margin:10px 0;
+}
+.work{
+	float:left;
+	width:100px;
+	padding-top:10px;
+	padding-left:8px;
+}
+.time{
+	float:left;
+	width:100px;
+	padding-top:10px;
+}
+.wages{
+	float:right;
+	width:200px;
+	padding-top:10px;
+}
+.footer{
+	background-repeat:no-repeat;
+	height:121px;
+	clear:both;
+	font-size:14px;
+	line-height:121px;
+	color:#060;
+	text-align:center;
+	font-weight:bold;
+}
+section ul li{
+	color:#865830;
+	list-style:disc inside;
+}
+section ol li{
+	color:#865830;
+	list-style:decimal inside;
+}
+@media all and (max-width:640px){
+	article{ width:100%}
+	header hgroup{ color:#F1ED84;float:none;}
+	section{ margin-left:20px;}
+	.wages{ clear:both; float:none;}
+	.photo{ clear:both;}
+	header .xinxi{
+		float:none;
+		margin-left:50px;
+		clear:both;
+	}
+}
